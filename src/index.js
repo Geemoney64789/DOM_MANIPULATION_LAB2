@@ -82,7 +82,6 @@ topMenuEl.addEventListener("click", function (event) {
   if (event.target.tagName !== "A") {
     return;
   }
-
   console.log(event.target.textContent);
 });
 
